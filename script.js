@@ -3,7 +3,7 @@ function cekKhodam() {
     const resultDiv = document.getElementById('result');
 
     if (name.trim() === '') {
-        resultDiv.textContent = 'Harap masukkan nama!';
+        resultDiv.innerHTML = 'Harap masukkan nama!';
         resultDiv.classList.add('show');
         return;
     }
@@ -47,6 +47,6 @@ function cekKhodam() {
     const randomIndex = Math.floor(Math.random() * khodams.length);
     const khodam = khodams[randomIndex];
 
-    resultDiv.textContent = `Nama: ${name}, Khodam Anda adalah: ${khodam}`;
+    resultDiv.innerHTML = `<strong>NAMA :</strong> ${name}<br><strong>KHODAM :</strong> ${khodam}`;
     resultDiv.classList.add('show');
 }
