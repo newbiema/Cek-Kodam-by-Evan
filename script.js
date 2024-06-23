@@ -4,10 +4,10 @@ function cekKhodam() {
 
     if (name.trim() === '') {
         resultDiv.textContent = 'Harap masukkan nama!';
+        resultDiv.classList.add('show');
         return;
     }
 
-    // Logika untuk menentukan hasil khodam, contoh sederhana
     const khodams = [
         'Harimau',
         'Macan Putih',
@@ -48,4 +48,5 @@ function cekKhodam() {
     const khodam = khodams[randomIndex];
 
     resultDiv.textContent = `Nama: ${name}, Khodam Anda adalah: ${khodam}`;
+    resultDiv.classList.add('show');
 }
