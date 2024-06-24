@@ -25,8 +25,6 @@ function cekKhodam() {
         'Phoenix',
         'Raja Langit',
         'Putri Duyung',
-        'Dewi Sri',
-        'Hanoman',
         'Gatotkaca',
         'Bima',
         'Hiu',
@@ -85,9 +83,28 @@ function cekKhodam() {
         'Ganjar',
         'Puan',
         'Megawati',
-        'Albert Einstein'
-
-
+        'Albert Einstein',
+        'Uni Bakwan',
+        'Pocong',
+        'Kuntilanak',
+        'Tuyul',
+        'Genderuwo',
+        'Wewe Gombel',
+        'Sundel Bolong',
+        'Jenglot',
+        'Leak',
+        'Banaspati',
+        'Suster Ngesot',
+        'Palasik',
+        'Buto Ijo',
+        'Si Manis Jembatan Ancol',
+        'Nyi Roro Kidul',
+        'Kuyang',
+        'Setan Budeg',
+        'Silik',
+        'Beguganjang',
+        'Kolor Ijo',
+        "Jerangkong"
     ];
     
     const randomIndex = Math.floor(Math.random() * khodams.length);
