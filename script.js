@@ -9,6 +9,15 @@ function cekKhodam() {
     }
 
     const khodams = [
+        'Beat Karbu',
+        'Vario Mber',
+        'Supra Bandel',
+        'Jokowi',
+        'Cak Nun',
+        'Coach Justin',
+        'Neymar Bogor',
+        'Messi Citayem',
+        'Ronaldo Aceh',        
         'Harimau',
         'Macan Putih',
         'Naga',
@@ -32,7 +41,6 @@ function cekKhodam() {
         'Boboiboy',
         'Gopal',
         'Tidak Ada',
-        'Yesus',
         'Iwan Bule',
         'Om Om Hitam',
         'Botak Hitam',
