@@ -42,6 +42,7 @@ function cekKhodam() {
         'Om Om Hitam',
         'Botak Hitam',
         'Ambatukam',
+        'Carok Madura'
     ];
     
     const randomIndex = Math.floor(Math.random() * khodams.length);
